@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.air-conditioning {
+  width: 300px;
+  height: 100px;
+
+  border: 5px solid #000;
+
+  margin-left: 50px;
+
+  position: relative;
+}
+
+.conditioner-mouth {
+  width: 250px;
+  height: 20px;
+
+  border: 3px solid #000;
+
+  position: absolute;
+
+  bottom: 5px;
+  left: 15px;
+}
+
+.cond-detal {
+  width: 100px;
+  height: 20px;
+
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+
+  border: 3px solid #000;
+  background-color: #000;
+
+  position: absolute;
+
+  bottom: 25px;
+  left: 90px;
+}
+
+.pos-window {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.window {
+  width: 350px;
+  height: 300px;
+
+  border: 5px solid #000;
+
+  position: relative;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.windows {
+  width: 280px;
+  height: 240px;
+
+  border: 4px solid #000;
+
+  margin-top: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.window-detal {
+  width: 400px;
+  height: 25px;
+
+  border: 5px solid #000;
+
+  position: absolute;
+
+  bottom: -25px;
+  right: -30px;
+}
+
+.line1 {
+  width: 5px;
+  height: 60px;
+
+  background-color: #000;
+
+  transform: rotate(35deg);
+
+  position: absolute;
+
+  bottom: -8px;
+  left: 12px;
+}
+
+.line2 {
+  width: 5px;
+  height: 60px;
+
+  background-color: #000;
+
+  transform: rotate(-35deg);
+
+  position: absolute;
+
+  bottom: -8px;
+  right: 12px;
+}
+
+.line3 {
+  width: 5px;
+  height: 35px;
+
+  background-color: #000;
+
+  transform: rotate(85deg);
+
+  position: absolute;
+
+  top: -10px;
+  right: 12px;
+}
+
+.line4 {
+  width: 5px;
+  height: 35px;
+
+  background-color: #000;
+
+  transform: rotate(-85deg);
+
+  position: absolute;
+
+  top: -10px;
+  left: 12px;
+}
+
+.window-second {
+  width: 65px;
+  height: 220px;
+
+  border: 5px solid #000;
+}
+
+.battary {
+  width: 300px;
+  height: 200px;
+
+  border: 5px solid #000;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  position: relative;
+}
+
+.battary-line {
+  height: 190px;
+  width: 5px;
+
+  background-color: #000;
+}
+
+.battary-line-column {
+  width: 300px;
+  height: 30px;
+
+  border: 5px solid #000;
+
+  position: absolute;
+
+  top: 20px;
+}
+
+.small-cork {
+  position: absolute;
+
+  width: 20px;
+  height: 10px;
+
+  border: 3px solid #000;
+
+  top: 30px;
+  right: -20px;
+}
+
+.small-cork2 {
+  position: absolute;
+
+  width: 20px;
+  height: 10px;
+
+  border: 3px solid #000;
+
+  bottom: 30px;
+  right: -20px;
+}
+
+.big-cark {
+  position: absolute;
+
+  width: 40px;
+  height: 20px;
+
+  border: 3px solid #000;
+
+  top: 25px;
+  left: -35px;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.curcle {
+  width: 25px;
+  height: 25px;
+
+  border-radius: 50%;
+
+  background-color: #000;
+}
+
+
+img{
+    width: 1330px;
+    height: 100vh;
+}
